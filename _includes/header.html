@@ -1,0 +1,16 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%if page.description %}
+    <meta name="description" content="{{page.description}}" />
+    {%endif%}
+
+    <title>{{page.title}}</title>
+    <!--CSS -->
+    <link href="{{site.url}}/css/bootstrap.css" rel="stylesheet">
+    <!--Your Common CSS here-->
+</head>
+
+<header>
+    {% include navBar.html %}
+</header>

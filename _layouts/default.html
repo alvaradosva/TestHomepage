@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+{%include header.html %}
+<body style="margin-top: 80px">
+
+<div class="text-center">
+    {%if page.heading %}<h1>{{page.heading}}</h1> {%endif%}
+</div>
+
+</header>
+<div class="container">
+    {{content}}
+</div>
+
+<script src="{{site.url}}/js/jquery-1.10.2.js"></script>
+<script src="{{site.url}}/js/bootstrap.js"></script>
+</body>
+{%include footer.html %}
+</html>
